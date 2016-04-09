@@ -1,6 +1,19 @@
 # 一个简易的事件对象
 
-专门用于给对象添加订阅事件功能
+专门用于给对象添加订阅事件功能，支持**UMD**模块加载。
+**请注意，执行环境需要ES5的支持。**
+
+## 安装
+
+```sh
+npm install coffee-eventemitter --save
+```
+
+包引用
+
+```js
+var SimpEvent = require('coffee-eventemitter');
+```
 
 ## API说明
 
